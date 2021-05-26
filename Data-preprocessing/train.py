@@ -23,8 +23,6 @@ NUM_UNITS = [256]
 # 7、模型保存路径
 SAVE_MODEL_PATH = "model.h5"
 
-
-
 # 一:模型构建函数
 def build_model(output_units, num_units, loss, learning_rate):
     # 构建网络结构
